@@ -980,7 +980,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
+  background-color: rgba(156, 10, 10, 0.808);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1013,7 +1013,7 @@ parallax & home seperator
   height: 32px;
   top: 160px;
   left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
+  background: url() center center no-repeat;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1031,7 +1031,7 @@ parallax & home seperator
   height: 32px;
   top: 140px;
   left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
+  background: url() center center no-repeat;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1410,6 +1410,10 @@ contact
 }
 
 .contact-text p {
+  margin-bottom: 28px;
+}
+
+.contact-text a {
   margin-bottom: 28px;
 }
 
